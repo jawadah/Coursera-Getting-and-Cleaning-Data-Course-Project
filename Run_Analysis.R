@@ -20,6 +20,7 @@ addSuffix<- function(x, suffix) {
 + }
 
 #Get data
+
 pathfile <- file.path(getwd(),"UCI HAR Dataset")
 pathfiletest <- file.path(pathfile, "test")
 pathfiletrain <- file.path(pathfile, "train")
