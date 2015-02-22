@@ -1,8 +1,10 @@
+Setwd = The path of the workking directory
 tf <- tempfile()
 tf
 td <- getwd()
 td
 #Download zip file
+
 zip.file.location <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" 
 download.file(zip.file.location, tf, mode = "wb")
 #Unzip file 
